@@ -1,0 +1,11 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/
+
+# Runtime records contain locally generated vehicle and payment metadata.
+data/transactions.json
+data/vehicles.json
+Automated-E-Toll-Plaza.zip

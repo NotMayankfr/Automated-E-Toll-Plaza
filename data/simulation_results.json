@@ -1,0 +1,3970 @@
+{
+  "summary": {
+    "vehicle_count": 150,
+    "manual_avg_minutes": 7.92,
+    "automated_avg_minutes": 1.57,
+    "wait_time_reduction_pct": 80.21
+  },
+  "manual_results": [
+    {
+      "vehicle_id": "VH-001",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 4.71,
+      "payment_time_minutes": 4.09,
+      "total_processing_minutes": 8.8
+    },
+    {
+      "vehicle_id": "VH-002",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 4.79,
+      "payment_time_minutes": 4.17,
+      "total_processing_minutes": 8.95
+    },
+    {
+      "vehicle_id": "VH-003",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.8,
+      "payment_time_minutes": 3.31,
+      "total_processing_minutes": 7.11
+    },
+    {
+      "vehicle_id": "VH-004",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.69,
+      "payment_time_minutes": 3.21,
+      "total_processing_minutes": 6.89
+    },
+    {
+      "vehicle_id": "VH-005",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.88,
+      "payment_time_minutes": 3.38,
+      "total_processing_minutes": 7.26
+    },
+    {
+      "vehicle_id": "VH-006",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 4.0,
+      "payment_time_minutes": 3.48,
+      "total_processing_minutes": 7.47
+    },
+    {
+      "vehicle_id": "VH-007",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.84,
+      "payment_time_minutes": 3.34,
+      "total_processing_minutes": 7.18
+    },
+    {
+      "vehicle_id": "VH-008",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 5.74,
+      "payment_time_minutes": 5.0,
+      "total_processing_minutes": 10.74
+    },
+    {
+      "vehicle_id": "VH-009",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.53,
+      "payment_time_minutes": 3.07,
+      "total_processing_minutes": 6.6
+    },
+    {
+      "vehicle_id": "VH-010",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.79,
+      "payment_time_minutes": 3.3,
+      "total_processing_minutes": 7.09
+    },
+    {
+      "vehicle_id": "VH-011",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 4.91,
+      "payment_time_minutes": 4.27,
+      "total_processing_minutes": 9.18
+    },
+    {
+      "vehicle_id": "VH-012",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 4.55,
+      "payment_time_minutes": 3.96,
+      "total_processing_minutes": 8.51
+    },
+    {
+      "vehicle_id": "VH-013",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.99,
+      "payment_time_minutes": 3.47,
+      "total_processing_minutes": 7.46
+    },
+    {
+      "vehicle_id": "VH-014",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.5,
+      "payment_time_minutes": 3.04,
+      "total_processing_minutes": 6.54
+    },
+    {
+      "vehicle_id": "VH-015",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "Airport"
+      ],
+      "routing_cost": 6.0,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.35,
+      "payment_time_minutes": 3.79,
+      "total_processing_minutes": 8.14
+    },
+    {
+      "vehicle_id": "VH-016",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.89,
+      "payment_time_minutes": 3.38,
+      "total_processing_minutes": 7.28
+    },
+    {
+      "vehicle_id": "VH-017",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 4.59,
+      "payment_time_minutes": 3.99,
+      "total_processing_minutes": 8.58
+    },
+    {
+      "vehicle_id": "VH-018",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 4.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.17,
+      "payment_time_minutes": 3.63,
+      "total_processing_minutes": 7.8
+    },
+    {
+      "vehicle_id": "VH-019",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 4.01,
+      "payment_time_minutes": 3.49,
+      "total_processing_minutes": 7.5
+    },
+    {
+      "vehicle_id": "VH-020",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.76,
+      "payment_time_minutes": 3.27,
+      "total_processing_minutes": 7.02
+    },
+    {
+      "vehicle_id": "VH-021",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "Airport"
+      ],
+      "routing_cost": 6.0,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.67,
+      "payment_time_minutes": 4.06,
+      "total_processing_minutes": 8.73
+    },
+    {
+      "vehicle_id": "VH-022",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 4.8,
+      "payment_time_minutes": 4.17,
+      "total_processing_minutes": 8.97
+    },
+    {
+      "vehicle_id": "VH-023",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.95,
+      "payment_time_minutes": 3.43,
+      "total_processing_minutes": 7.38
+    },
+    {
+      "vehicle_id": "VH-024",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "Airport"
+      ],
+      "routing_cost": 6.0,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.54,
+      "payment_time_minutes": 3.95,
+      "total_processing_minutes": 8.48
+    },
+    {
+      "vehicle_id": "VH-025",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.83,
+      "payment_time_minutes": 3.33,
+      "total_processing_minutes": 7.16
+    },
+    {
+      "vehicle_id": "VH-026",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.6,
+      "payment_time_minutes": 3.13,
+      "total_processing_minutes": 6.73
+    },
+    {
+      "vehicle_id": "VH-027",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 4.76,
+      "payment_time_minutes": 4.14,
+      "total_processing_minutes": 8.9
+    },
+    {
+      "vehicle_id": "VH-028",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.44,
+      "payment_time_minutes": 2.99,
+      "total_processing_minutes": 6.43
+    },
+    {
+      "vehicle_id": "VH-029",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "Airport"
+      ],
+      "routing_cost": 6.0,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.61,
+      "payment_time_minutes": 4.01,
+      "total_processing_minutes": 8.63
+    },
+    {
+      "vehicle_id": "VH-030",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 5.1,
+      "payment_time_minutes": 4.44,
+      "total_processing_minutes": 9.54
+    },
+    {
+      "vehicle_id": "VH-031",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.93,
+      "payment_time_minutes": 3.42,
+      "total_processing_minutes": 7.34
+    },
+    {
+      "vehicle_id": "VH-032",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 4.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.75,
+      "payment_time_minutes": 4.13,
+      "total_processing_minutes": 8.88
+    },
+    {
+      "vehicle_id": "VH-033",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.68,
+      "payment_time_minutes": 4.07,
+      "total_processing_minutes": 8.74
+    },
+    {
+      "vehicle_id": "VH-034",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 4.64,
+      "payment_time_minutes": 4.03,
+      "total_processing_minutes": 8.67
+    },
+    {
+      "vehicle_id": "VH-035",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 5.04,
+      "payment_time_minutes": 4.38,
+      "total_processing_minutes": 9.42
+    },
+    {
+      "vehicle_id": "VH-036",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.82,
+      "payment_time_minutes": 3.32,
+      "total_processing_minutes": 7.13
+    },
+    {
+      "vehicle_id": "VH-037",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.66,
+      "payment_time_minutes": 3.18,
+      "total_processing_minutes": 6.83
+    },
+    {
+      "vehicle_id": "VH-038",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.52,
+      "payment_time_minutes": 3.93,
+      "total_processing_minutes": 8.46
+    },
+    {
+      "vehicle_id": "VH-039",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 5.12,
+      "payment_time_minutes": 4.45,
+      "total_processing_minutes": 9.57
+    },
+    {
+      "vehicle_id": "VH-040",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.42,
+      "payment_time_minutes": 2.97,
+      "total_processing_minutes": 6.39
+    },
+    {
+      "vehicle_id": "VH-041",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.43,
+      "payment_time_minutes": 2.98,
+      "total_processing_minutes": 6.41
+    },
+    {
+      "vehicle_id": "VH-042",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.66,
+      "payment_time_minutes": 3.18,
+      "total_processing_minutes": 6.83
+    },
+    {
+      "vehicle_id": "VH-043",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.7,
+      "payment_time_minutes": 3.22,
+      "total_processing_minutes": 6.92
+    },
+    {
+      "vehicle_id": "VH-044",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.72,
+      "payment_time_minutes": 3.24,
+      "total_processing_minutes": 6.96
+    },
+    {
+      "vehicle_id": "VH-045",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.55,
+      "payment_time_minutes": 3.09,
+      "total_processing_minutes": 6.64
+    },
+    {
+      "vehicle_id": "VH-046",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.86,
+      "payment_time_minutes": 3.35,
+      "total_processing_minutes": 7.21
+    },
+    {
+      "vehicle_id": "VH-047",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 4.79,
+      "payment_time_minutes": 4.17,
+      "total_processing_minutes": 8.96
+    },
+    {
+      "vehicle_id": "VH-048",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.9,
+      "payment_time_minutes": 3.39,
+      "total_processing_minutes": 7.29
+    },
+    {
+      "vehicle_id": "VH-049",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 4.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.76,
+      "payment_time_minutes": 4.14,
+      "total_processing_minutes": 8.89
+    },
+    {
+      "vehicle_id": "VH-050",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 4.78,
+      "payment_time_minutes": 4.16,
+      "total_processing_minutes": 8.94
+    },
+    {
+      "vehicle_id": "VH-051",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 5.11,
+      "payment_time_minutes": 4.44,
+      "total_processing_minutes": 9.55
+    },
+    {
+      "vehicle_id": "VH-052",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "Airport"
+      ],
+      "routing_cost": 6.0,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 5.6,
+      "payment_time_minutes": 4.87,
+      "total_processing_minutes": 10.47
+    },
+    {
+      "vehicle_id": "VH-053",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 4.59,
+      "payment_time_minutes": 4.0,
+      "total_processing_minutes": 8.59
+    },
+    {
+      "vehicle_id": "VH-054",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 5.08,
+      "payment_time_minutes": 4.42,
+      "total_processing_minutes": 9.5
+    },
+    {
+      "vehicle_id": "VH-055",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 4.8,
+      "payment_time_minutes": 4.17,
+      "total_processing_minutes": 8.97
+    },
+    {
+      "vehicle_id": "VH-056",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.85,
+      "payment_time_minutes": 3.35,
+      "total_processing_minutes": 7.2
+    },
+    {
+      "vehicle_id": "VH-057",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.91,
+      "payment_time_minutes": 3.4,
+      "total_processing_minutes": 7.32
+    },
+    {
+      "vehicle_id": "VH-058",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.53,
+      "payment_time_minutes": 3.07,
+      "total_processing_minutes": 6.59
+    },
+    {
+      "vehicle_id": "VH-059",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.87,
+      "payment_time_minutes": 3.37,
+      "total_processing_minutes": 7.24
+    },
+    {
+      "vehicle_id": "VH-060",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.67,
+      "payment_time_minutes": 3.19,
+      "total_processing_minutes": 6.86
+    },
+    {
+      "vehicle_id": "VH-061",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.5,
+      "payment_time_minutes": 3.04,
+      "total_processing_minutes": 6.54
+    },
+    {
+      "vehicle_id": "VH-062",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 4.79,
+      "payment_time_minutes": 4.16,
+      "total_processing_minutes": 8.95
+    },
+    {
+      "vehicle_id": "VH-063",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.83,
+      "payment_time_minutes": 3.33,
+      "total_processing_minutes": 7.16
+    },
+    {
+      "vehicle_id": "VH-064",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.5,
+      "payment_time_minutes": 3.04,
+      "total_processing_minutes": 6.54
+    },
+    {
+      "vehicle_id": "VH-065",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "Airport"
+      ],
+      "routing_cost": 6.0,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.37,
+      "payment_time_minutes": 3.8,
+      "total_processing_minutes": 8.17
+    },
+    {
+      "vehicle_id": "VH-066",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 5.1,
+      "payment_time_minutes": 4.44,
+      "total_processing_minutes": 9.54
+    },
+    {
+      "vehicle_id": "VH-067",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.39,
+      "payment_time_minutes": 2.95,
+      "total_processing_minutes": 6.34
+    },
+    {
+      "vehicle_id": "VH-068",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.44,
+      "payment_time_minutes": 2.99,
+      "total_processing_minutes": 6.43
+    },
+    {
+      "vehicle_id": "VH-069",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.6,
+      "payment_time_minutes": 3.13,
+      "total_processing_minutes": 6.73
+    },
+    {
+      "vehicle_id": "VH-070",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.44,
+      "payment_time_minutes": 2.99,
+      "total_processing_minutes": 6.43
+    },
+    {
+      "vehicle_id": "VH-071",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.48,
+      "payment_time_minutes": 3.03,
+      "total_processing_minutes": 6.51
+    },
+    {
+      "vehicle_id": "VH-072",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.62,
+      "payment_time_minutes": 3.15,
+      "total_processing_minutes": 6.77
+    },
+    {
+      "vehicle_id": "VH-073",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.56,
+      "payment_time_minutes": 3.1,
+      "total_processing_minutes": 6.66
+    },
+    {
+      "vehicle_id": "VH-074",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 4.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 5.61,
+      "payment_time_minutes": 4.88,
+      "total_processing_minutes": 10.49
+    },
+    {
+      "vehicle_id": "VH-075",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.18,
+      "payment_time_minutes": 3.64,
+      "total_processing_minutes": 7.82
+    },
+    {
+      "vehicle_id": "VH-076",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 5.86,
+      "payment_time_minutes": 5.1,
+      "total_processing_minutes": 10.96
+    },
+    {
+      "vehicle_id": "VH-077",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.41,
+      "payment_time_minutes": 3.83,
+      "total_processing_minutes": 8.24
+    },
+    {
+      "vehicle_id": "VH-078",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 5.02,
+      "payment_time_minutes": 4.36,
+      "total_processing_minutes": 9.38
+    },
+    {
+      "vehicle_id": "VH-079",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.79,
+      "payment_time_minutes": 4.17,
+      "total_processing_minutes": 8.96
+    },
+    {
+      "vehicle_id": "VH-080",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 4.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 5.3,
+      "payment_time_minutes": 4.61,
+      "total_processing_minutes": 9.92
+    },
+    {
+      "vehicle_id": "VH-081",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.94,
+      "payment_time_minutes": 3.43,
+      "total_processing_minutes": 7.37
+    },
+    {
+      "vehicle_id": "VH-082",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "Airport"
+      ],
+      "routing_cost": 6.0,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.54,
+      "payment_time_minutes": 3.95,
+      "total_processing_minutes": 8.48
+    },
+    {
+      "vehicle_id": "VH-083",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.66,
+      "payment_time_minutes": 3.19,
+      "total_processing_minutes": 6.85
+    },
+    {
+      "vehicle_id": "VH-084",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "Airport"
+      ],
+      "routing_cost": 6.0,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 5.94,
+      "payment_time_minutes": 5.17,
+      "total_processing_minutes": 11.11
+    },
+    {
+      "vehicle_id": "VH-085",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.54,
+      "payment_time_minutes": 3.08,
+      "total_processing_minutes": 6.62
+    },
+    {
+      "vehicle_id": "VH-086",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 4.75,
+      "payment_time_minutes": 4.13,
+      "total_processing_minutes": 8.89
+    },
+    {
+      "vehicle_id": "VH-087",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 5.1,
+      "payment_time_minutes": 4.43,
+      "total_processing_minutes": 9.54
+    },
+    {
+      "vehicle_id": "VH-088",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.91,
+      "payment_time_minutes": 3.4,
+      "total_processing_minutes": 7.31
+    },
+    {
+      "vehicle_id": "VH-089",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.71,
+      "payment_time_minutes": 3.22,
+      "total_processing_minutes": 6.93
+    },
+    {
+      "vehicle_id": "VH-090",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "Airport"
+      ],
+      "routing_cost": 6.0,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.65,
+      "payment_time_minutes": 4.04,
+      "total_processing_minutes": 8.69
+    },
+    {
+      "vehicle_id": "VH-091",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.89,
+      "payment_time_minutes": 3.38,
+      "total_processing_minutes": 7.27
+    },
+    {
+      "vehicle_id": "VH-092",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.95,
+      "payment_time_minutes": 3.44,
+      "total_processing_minutes": 7.39
+    },
+    {
+      "vehicle_id": "VH-093",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.48,
+      "payment_time_minutes": 3.89,
+      "total_processing_minutes": 8.37
+    },
+    {
+      "vehicle_id": "VH-094",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.52,
+      "payment_time_minutes": 3.06,
+      "total_processing_minutes": 6.59
+    },
+    {
+      "vehicle_id": "VH-095",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.67,
+      "payment_time_minutes": 3.19,
+      "total_processing_minutes": 6.86
+    },
+    {
+      "vehicle_id": "VH-096",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.41,
+      "payment_time_minutes": 3.83,
+      "total_processing_minutes": 8.24
+    },
+    {
+      "vehicle_id": "VH-097",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 4.95,
+      "payment_time_minutes": 4.3,
+      "total_processing_minutes": 9.25
+    },
+    {
+      "vehicle_id": "VH-098",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.89,
+      "payment_time_minutes": 3.38,
+      "total_processing_minutes": 7.26
+    },
+    {
+      "vehicle_id": "VH-099",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 4.98,
+      "payment_time_minutes": 4.33,
+      "total_processing_minutes": 9.32
+    },
+    {
+      "vehicle_id": "VH-100",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 4.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.72,
+      "payment_time_minutes": 4.1,
+      "total_processing_minutes": 8.82
+    },
+    {
+      "vehicle_id": "VH-101",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.97,
+      "payment_time_minutes": 3.45,
+      "total_processing_minutes": 7.42
+    },
+    {
+      "vehicle_id": "VH-102",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 4.01,
+      "payment_time_minutes": 3.49,
+      "total_processing_minutes": 7.5
+    },
+    {
+      "vehicle_id": "VH-103",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.7,
+      "payment_time_minutes": 3.22,
+      "total_processing_minutes": 6.92
+    },
+    {
+      "vehicle_id": "VH-104",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.96,
+      "payment_time_minutes": 3.44,
+      "total_processing_minutes": 7.4
+    },
+    {
+      "vehicle_id": "VH-105",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "Airport"
+      ],
+      "routing_cost": 6.0,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.55,
+      "payment_time_minutes": 3.96,
+      "total_processing_minutes": 8.5
+    },
+    {
+      "vehicle_id": "VH-106",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.79,
+      "payment_time_minutes": 3.3,
+      "total_processing_minutes": 7.09
+    },
+    {
+      "vehicle_id": "VH-107",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.39,
+      "payment_time_minutes": 2.95,
+      "total_processing_minutes": 6.34
+    },
+    {
+      "vehicle_id": "VH-108",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.63,
+      "payment_time_minutes": 3.16,
+      "total_processing_minutes": 6.79
+    },
+    {
+      "vehicle_id": "VH-109",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.74,
+      "payment_time_minutes": 4.12,
+      "total_processing_minutes": 8.86
+    },
+    {
+      "vehicle_id": "VH-110",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.46,
+      "payment_time_minutes": 3.01,
+      "total_processing_minutes": 6.47
+    },
+    {
+      "vehicle_id": "VH-111",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.51,
+      "payment_time_minutes": 3.06,
+      "total_processing_minutes": 6.57
+    },
+    {
+      "vehicle_id": "VH-112",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.56,
+      "payment_time_minutes": 3.1,
+      "total_processing_minutes": 6.66
+    },
+    {
+      "vehicle_id": "VH-113",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.65,
+      "payment_time_minutes": 3.17,
+      "total_processing_minutes": 6.82
+    },
+    {
+      "vehicle_id": "VH-114",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 4.72,
+      "payment_time_minutes": 4.1,
+      "total_processing_minutes": 8.82
+    },
+    {
+      "vehicle_id": "VH-115",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.94,
+      "payment_time_minutes": 3.43,
+      "total_processing_minutes": 7.37
+    },
+    {
+      "vehicle_id": "VH-116",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.53,
+      "payment_time_minutes": 3.07,
+      "total_processing_minutes": 6.59
+    },
+    {
+      "vehicle_id": "VH-117",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 5.14,
+      "payment_time_minutes": 4.47,
+      "total_processing_minutes": 9.61
+    },
+    {
+      "vehicle_id": "VH-118",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.63,
+      "payment_time_minutes": 3.15,
+      "total_processing_minutes": 6.78
+    },
+    {
+      "vehicle_id": "VH-119",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 5.06,
+      "payment_time_minutes": 4.4,
+      "total_processing_minutes": 9.46
+    },
+    {
+      "vehicle_id": "VH-120",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 4.81,
+      "payment_time_minutes": 4.18,
+      "total_processing_minutes": 8.99
+    },
+    {
+      "vehicle_id": "VH-121",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 5.81,
+      "payment_time_minutes": 5.05,
+      "total_processing_minutes": 10.86
+    },
+    {
+      "vehicle_id": "VH-122",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 5.33,
+      "payment_time_minutes": 4.63,
+      "total_processing_minutes": 9.96
+    },
+    {
+      "vehicle_id": "VH-123",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 5.14,
+      "payment_time_minutes": 4.47,
+      "total_processing_minutes": 9.61
+    },
+    {
+      "vehicle_id": "VH-124",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 4.64,
+      "payment_time_minutes": 4.03,
+      "total_processing_minutes": 8.67
+    },
+    {
+      "vehicle_id": "VH-125",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.19,
+      "payment_time_minutes": 3.64,
+      "total_processing_minutes": 7.83
+    },
+    {
+      "vehicle_id": "VH-126",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 4.0,
+      "payment_time_minutes": 3.47,
+      "total_processing_minutes": 7.47
+    },
+    {
+      "vehicle_id": "VH-127",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.36,
+      "payment_time_minutes": 2.92,
+      "total_processing_minutes": 6.29
+    },
+    {
+      "vehicle_id": "VH-128",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 4.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.16,
+      "payment_time_minutes": 3.62,
+      "total_processing_minutes": 7.78
+    },
+    {
+      "vehicle_id": "VH-129",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.31,
+      "payment_time_minutes": 3.75,
+      "total_processing_minutes": 8.06
+    },
+    {
+      "vehicle_id": "VH-130",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.91,
+      "payment_time_minutes": 3.4,
+      "total_processing_minutes": 7.32
+    },
+    {
+      "vehicle_id": "VH-131",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 4.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.57,
+      "payment_time_minutes": 3.97,
+      "total_processing_minutes": 8.54
+    },
+    {
+      "vehicle_id": "VH-132",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 4.65,
+      "payment_time_minutes": 4.04,
+      "total_processing_minutes": 8.69
+    },
+    {
+      "vehicle_id": "VH-133",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.66,
+      "payment_time_minutes": 3.18,
+      "total_processing_minutes": 6.85
+    },
+    {
+      "vehicle_id": "VH-134",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.22,
+      "payment_time_minutes": 3.67,
+      "total_processing_minutes": 7.89
+    },
+    {
+      "vehicle_id": "VH-135",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.79,
+      "payment_time_minutes": 4.17,
+      "total_processing_minutes": 8.96
+    },
+    {
+      "vehicle_id": "VH-136",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 4.81,
+      "payment_time_minutes": 4.18,
+      "total_processing_minutes": 8.98
+    },
+    {
+      "vehicle_id": "VH-137",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.51,
+      "payment_time_minutes": 3.05,
+      "total_processing_minutes": 6.57
+    },
+    {
+      "vehicle_id": "VH-138",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.39,
+      "payment_time_minutes": 3.82,
+      "total_processing_minutes": 8.22
+    },
+    {
+      "vehicle_id": "VH-139",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.75,
+      "payment_time_minutes": 3.26,
+      "total_processing_minutes": 7.02
+    },
+    {
+      "vehicle_id": "VH-140",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "Airport"
+      ],
+      "routing_cost": 6.0,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.8,
+      "payment_time_minutes": 4.18,
+      "total_processing_minutes": 8.98
+    },
+    {
+      "vehicle_id": "VH-141",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.83,
+      "payment_time_minutes": 3.33,
+      "total_processing_minutes": 7.16
+    },
+    {
+      "vehicle_id": "VH-142",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 5.02,
+      "payment_time_minutes": 4.37,
+      "total_processing_minutes": 9.39
+    },
+    {
+      "vehicle_id": "VH-143",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 4.6,
+      "payment_time_minutes": 4.0,
+      "total_processing_minutes": 8.6
+    },
+    {
+      "vehicle_id": "VH-144",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.55,
+      "payment_time_minutes": 3.09,
+      "total_processing_minutes": 6.64
+    },
+    {
+      "vehicle_id": "VH-145",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.73,
+      "payment_time_minutes": 3.25,
+      "total_processing_minutes": 6.98
+    },
+    {
+      "vehicle_id": "VH-146",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.98,
+      "payment_time_minutes": 3.46,
+      "total_processing_minutes": 7.43
+    },
+    {
+      "vehicle_id": "VH-147",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.73,
+      "payment_time_minutes": 3.25,
+      "total_processing_minutes": 6.98
+    },
+    {
+      "vehicle_id": "VH-148",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "Airport"
+      ],
+      "routing_cost": 6.0,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 4.77,
+      "payment_time_minutes": 4.14,
+      "total_processing_minutes": 8.91
+    },
+    {
+      "vehicle_id": "VH-149",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.59,
+      "payment_time_minutes": 3.13,
+      "total_processing_minutes": 6.72
+    },
+    {
+      "vehicle_id": "VH-150",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 3.98,
+      "payment_time_minutes": 3.46,
+      "total_processing_minutes": 7.45
+    }
+  ],
+  "automated_results": [
+    {
+      "vehicle_id": "VH-001",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.73,
+      "payment_time_minutes": 2.1,
+      "total_processing_minutes": 2.83
+    },
+    {
+      "vehicle_id": "VH-002",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.77,
+      "payment_time_minutes": 2.2,
+      "total_processing_minutes": 2.97
+    },
+    {
+      "vehicle_id": "VH-003",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.3,
+      "payment_time_minutes": 0.86,
+      "total_processing_minutes": 1.16
+    },
+    {
+      "vehicle_id": "VH-004",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.25,
+      "payment_time_minutes": 0.71,
+      "total_processing_minutes": 0.96
+    },
+    {
+      "vehicle_id": "VH-005",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.29,
+      "payment_time_minutes": 0.82,
+      "total_processing_minutes": 1.11
+    },
+    {
+      "vehicle_id": "VH-006",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.25,
+      "payment_time_minutes": 0.73,
+      "total_processing_minutes": 0.98
+    },
+    {
+      "vehicle_id": "VH-007",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.29,
+      "payment_time_minutes": 0.82,
+      "total_processing_minutes": 1.11
+    },
+    {
+      "vehicle_id": "VH-008",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.79,
+      "payment_time_minutes": 2.25,
+      "total_processing_minutes": 3.04
+    },
+    {
+      "vehicle_id": "VH-009",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.3,
+      "payment_time_minutes": 0.85,
+      "total_processing_minutes": 1.15
+    },
+    {
+      "vehicle_id": "VH-010",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.28,
+      "payment_time_minutes": 0.79,
+      "total_processing_minutes": 1.07
+    },
+    {
+      "vehicle_id": "VH-011",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.72,
+      "payment_time_minutes": 2.06,
+      "total_processing_minutes": 2.78
+    },
+    {
+      "vehicle_id": "VH-012",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.76,
+      "payment_time_minutes": 2.18,
+      "total_processing_minutes": 2.95
+    },
+    {
+      "vehicle_id": "VH-013",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.29,
+      "payment_time_minutes": 0.82,
+      "total_processing_minutes": 1.1
+    },
+    {
+      "vehicle_id": "VH-014",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.23,
+      "payment_time_minutes": 0.67,
+      "total_processing_minutes": 0.9
+    },
+    {
+      "vehicle_id": "VH-015",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "Airport"
+      ],
+      "routing_cost": 6.0,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.28,
+      "payment_time_minutes": 0.81,
+      "total_processing_minutes": 1.1
+    },
+    {
+      "vehicle_id": "VH-016",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.23,
+      "payment_time_minutes": 0.65,
+      "total_processing_minutes": 0.88
+    },
+    {
+      "vehicle_id": "VH-017",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.75,
+      "payment_time_minutes": 2.16,
+      "total_processing_minutes": 2.91
+    },
+    {
+      "vehicle_id": "VH-018",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 4.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.27,
+      "payment_time_minutes": 0.77,
+      "total_processing_minutes": 1.04
+    },
+    {
+      "vehicle_id": "VH-019",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.27,
+      "payment_time_minutes": 0.76,
+      "total_processing_minutes": 1.02
+    },
+    {
+      "vehicle_id": "VH-020",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.26,
+      "payment_time_minutes": 0.74,
+      "total_processing_minutes": 1.0
+    },
+    {
+      "vehicle_id": "VH-021",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "Airport"
+      ],
+      "routing_cost": 6.0,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.31,
+      "payment_time_minutes": 0.87,
+      "total_processing_minutes": 1.18
+    },
+    {
+      "vehicle_id": "VH-022",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.76,
+      "payment_time_minutes": 2.16,
+      "total_processing_minutes": 2.92
+    },
+    {
+      "vehicle_id": "VH-023",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.24,
+      "payment_time_minutes": 0.69,
+      "total_processing_minutes": 0.93
+    },
+    {
+      "vehicle_id": "VH-024",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "Airport"
+      ],
+      "routing_cost": 6.0,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.24,
+      "payment_time_minutes": 0.69,
+      "total_processing_minutes": 0.94
+    },
+    {
+      "vehicle_id": "VH-025",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.27,
+      "payment_time_minutes": 0.78,
+      "total_processing_minutes": 1.05
+    },
+    {
+      "vehicle_id": "VH-026",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.28,
+      "payment_time_minutes": 0.81,
+      "total_processing_minutes": 1.1
+    },
+    {
+      "vehicle_id": "VH-027",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.77,
+      "payment_time_minutes": 2.2,
+      "total_processing_minutes": 2.98
+    },
+    {
+      "vehicle_id": "VH-028",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.31,
+      "payment_time_minutes": 0.88,
+      "total_processing_minutes": 1.19
+    },
+    {
+      "vehicle_id": "VH-029",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "Airport"
+      ],
+      "routing_cost": 6.0,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.3,
+      "payment_time_minutes": 0.84,
+      "total_processing_minutes": 1.14
+    },
+    {
+      "vehicle_id": "VH-030",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.76,
+      "payment_time_minutes": 2.17,
+      "total_processing_minutes": 2.92
+    },
+    {
+      "vehicle_id": "VH-031",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.3,
+      "payment_time_minutes": 0.86,
+      "total_processing_minutes": 1.16
+    },
+    {
+      "vehicle_id": "VH-032",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 4.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.28,
+      "payment_time_minutes": 0.8,
+      "total_processing_minutes": 1.08
+    },
+    {
+      "vehicle_id": "VH-033",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.26,
+      "payment_time_minutes": 0.73,
+      "total_processing_minutes": 0.99
+    },
+    {
+      "vehicle_id": "VH-034",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.74,
+      "payment_time_minutes": 2.11,
+      "total_processing_minutes": 2.85
+    },
+    {
+      "vehicle_id": "VH-035",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.8,
+      "payment_time_minutes": 2.28,
+      "total_processing_minutes": 3.08
+    },
+    {
+      "vehicle_id": "VH-036",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.25,
+      "payment_time_minutes": 0.72,
+      "total_processing_minutes": 0.97
+    },
+    {
+      "vehicle_id": "VH-037",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.27,
+      "payment_time_minutes": 0.76,
+      "total_processing_minutes": 1.03
+    },
+    {
+      "vehicle_id": "VH-038",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.29,
+      "payment_time_minutes": 0.84,
+      "total_processing_minutes": 1.13
+    },
+    {
+      "vehicle_id": "VH-039",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.77,
+      "payment_time_minutes": 2.19,
+      "total_processing_minutes": 2.96
+    },
+    {
+      "vehicle_id": "VH-040",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.29,
+      "payment_time_minutes": 0.82,
+      "total_processing_minutes": 1.1
+    },
+    {
+      "vehicle_id": "VH-041",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.26,
+      "payment_time_minutes": 0.73,
+      "total_processing_minutes": 0.99
+    },
+    {
+      "vehicle_id": "VH-042",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.27,
+      "payment_time_minutes": 0.77,
+      "total_processing_minutes": 1.04
+    },
+    {
+      "vehicle_id": "VH-043",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.26,
+      "payment_time_minutes": 0.73,
+      "total_processing_minutes": 0.99
+    },
+    {
+      "vehicle_id": "VH-044",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.27,
+      "payment_time_minutes": 0.77,
+      "total_processing_minutes": 1.04
+    },
+    {
+      "vehicle_id": "VH-045",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.26,
+      "payment_time_minutes": 0.74,
+      "total_processing_minutes": 1.0
+    },
+    {
+      "vehicle_id": "VH-046",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.25,
+      "payment_time_minutes": 0.71,
+      "total_processing_minutes": 0.96
+    },
+    {
+      "vehicle_id": "VH-047",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.74,
+      "payment_time_minutes": 2.12,
+      "total_processing_minutes": 2.86
+    },
+    {
+      "vehicle_id": "VH-048",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.28,
+      "payment_time_minutes": 0.8,
+      "total_processing_minutes": 1.08
+    },
+    {
+      "vehicle_id": "VH-049",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 4.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.3,
+      "payment_time_minutes": 0.87,
+      "total_processing_minutes": 1.17
+    },
+    {
+      "vehicle_id": "VH-050",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.77,
+      "payment_time_minutes": 2.19,
+      "total_processing_minutes": 2.96
+    },
+    {
+      "vehicle_id": "VH-051",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.76,
+      "payment_time_minutes": 2.18,
+      "total_processing_minutes": 2.94
+    },
+    {
+      "vehicle_id": "VH-052",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "Airport"
+      ],
+      "routing_cost": 6.0,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.73,
+      "payment_time_minutes": 2.1,
+      "total_processing_minutes": 2.83
+    },
+    {
+      "vehicle_id": "VH-053",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.74,
+      "payment_time_minutes": 2.11,
+      "total_processing_minutes": 2.85
+    },
+    {
+      "vehicle_id": "VH-054",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.75,
+      "payment_time_minutes": 2.15,
+      "total_processing_minutes": 2.9
+    },
+    {
+      "vehicle_id": "VH-055",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.77,
+      "payment_time_minutes": 2.19,
+      "total_processing_minutes": 2.95
+    },
+    {
+      "vehicle_id": "VH-056",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.25,
+      "payment_time_minutes": 0.71,
+      "total_processing_minutes": 0.96
+    },
+    {
+      "vehicle_id": "VH-057",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.27,
+      "payment_time_minutes": 0.77,
+      "total_processing_minutes": 1.04
+    },
+    {
+      "vehicle_id": "VH-058",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.29,
+      "payment_time_minutes": 0.83,
+      "total_processing_minutes": 1.12
+    },
+    {
+      "vehicle_id": "VH-059",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.27,
+      "payment_time_minutes": 0.76,
+      "total_processing_minutes": 1.03
+    },
+    {
+      "vehicle_id": "VH-060",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.23,
+      "payment_time_minutes": 0.65,
+      "total_processing_minutes": 0.88
+    },
+    {
+      "vehicle_id": "VH-061",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.25,
+      "payment_time_minutes": 0.72,
+      "total_processing_minutes": 0.98
+    },
+    {
+      "vehicle_id": "VH-062",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.75,
+      "payment_time_minutes": 2.15,
+      "total_processing_minutes": 2.9
+    },
+    {
+      "vehicle_id": "VH-063",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.25,
+      "payment_time_minutes": 0.71,
+      "total_processing_minutes": 0.96
+    },
+    {
+      "vehicle_id": "VH-064",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.29,
+      "payment_time_minutes": 0.82,
+      "total_processing_minutes": 1.1
+    },
+    {
+      "vehicle_id": "VH-065",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "Airport"
+      ],
+      "routing_cost": 6.0,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.26,
+      "payment_time_minutes": 0.74,
+      "total_processing_minutes": 1.0
+    },
+    {
+      "vehicle_id": "VH-066",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.77,
+      "payment_time_minutes": 2.19,
+      "total_processing_minutes": 2.95
+    },
+    {
+      "vehicle_id": "VH-067",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.26,
+      "payment_time_minutes": 0.74,
+      "total_processing_minutes": 0.99
+    },
+    {
+      "vehicle_id": "VH-068",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.31,
+      "payment_time_minutes": 0.9,
+      "total_processing_minutes": 1.21
+    },
+    {
+      "vehicle_id": "VH-069",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.28,
+      "payment_time_minutes": 0.79,
+      "total_processing_minutes": 1.06
+    },
+    {
+      "vehicle_id": "VH-070",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.26,
+      "payment_time_minutes": 0.74,
+      "total_processing_minutes": 1.0
+    },
+    {
+      "vehicle_id": "VH-071",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.27,
+      "payment_time_minutes": 0.76,
+      "total_processing_minutes": 1.03
+    },
+    {
+      "vehicle_id": "VH-072",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.25,
+      "payment_time_minutes": 0.73,
+      "total_processing_minutes": 0.98
+    },
+    {
+      "vehicle_id": "VH-073",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.25,
+      "payment_time_minutes": 0.71,
+      "total_processing_minutes": 0.96
+    },
+    {
+      "vehicle_id": "VH-074",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 4.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.78,
+      "payment_time_minutes": 2.23,
+      "total_processing_minutes": 3.01
+    },
+    {
+      "vehicle_id": "VH-075",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.26,
+      "payment_time_minutes": 0.73,
+      "total_processing_minutes": 0.98
+    },
+    {
+      "vehicle_id": "VH-076",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.78,
+      "payment_time_minutes": 2.24,
+      "total_processing_minutes": 3.02
+    },
+    {
+      "vehicle_id": "VH-077",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.31,
+      "payment_time_minutes": 0.89,
+      "total_processing_minutes": 1.2
+    },
+    {
+      "vehicle_id": "VH-078",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.78,
+      "payment_time_minutes": 2.22,
+      "total_processing_minutes": 3.0
+    },
+    {
+      "vehicle_id": "VH-079",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.24,
+      "payment_time_minutes": 0.7,
+      "total_processing_minutes": 0.94
+    },
+    {
+      "vehicle_id": "VH-080",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 4.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.78,
+      "payment_time_minutes": 2.23,
+      "total_processing_minutes": 3.02
+    },
+    {
+      "vehicle_id": "VH-081",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.25,
+      "payment_time_minutes": 0.72,
+      "total_processing_minutes": 0.97
+    },
+    {
+      "vehicle_id": "VH-082",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "Airport"
+      ],
+      "routing_cost": 6.0,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.28,
+      "payment_time_minutes": 0.8,
+      "total_processing_minutes": 1.08
+    },
+    {
+      "vehicle_id": "VH-083",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.29,
+      "payment_time_minutes": 0.84,
+      "total_processing_minutes": 1.13
+    },
+    {
+      "vehicle_id": "VH-084",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "Airport"
+      ],
+      "routing_cost": 6.0,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.77,
+      "payment_time_minutes": 2.2,
+      "total_processing_minutes": 2.97
+    },
+    {
+      "vehicle_id": "VH-085",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.31,
+      "payment_time_minutes": 0.9,
+      "total_processing_minutes": 1.21
+    },
+    {
+      "vehicle_id": "VH-086",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.79,
+      "payment_time_minutes": 2.26,
+      "total_processing_minutes": 3.05
+    },
+    {
+      "vehicle_id": "VH-087",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.74,
+      "payment_time_minutes": 2.12,
+      "total_processing_minutes": 2.87
+    },
+    {
+      "vehicle_id": "VH-088",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.26,
+      "payment_time_minutes": 0.74,
+      "total_processing_minutes": 1.0
+    },
+    {
+      "vehicle_id": "VH-089",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.25,
+      "payment_time_minutes": 0.73,
+      "total_processing_minutes": 0.98
+    },
+    {
+      "vehicle_id": "VH-090",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "Airport"
+      ],
+      "routing_cost": 6.0,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.29,
+      "payment_time_minutes": 0.83,
+      "total_processing_minutes": 1.12
+    },
+    {
+      "vehicle_id": "VH-091",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.24,
+      "payment_time_minutes": 0.68,
+      "total_processing_minutes": 0.92
+    },
+    {
+      "vehicle_id": "VH-092",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.23,
+      "payment_time_minutes": 0.66,
+      "total_processing_minutes": 0.89
+    },
+    {
+      "vehicle_id": "VH-093",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.23,
+      "payment_time_minutes": 0.66,
+      "total_processing_minutes": 0.9
+    },
+    {
+      "vehicle_id": "VH-094",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.25,
+      "payment_time_minutes": 0.72,
+      "total_processing_minutes": 0.98
+    },
+    {
+      "vehicle_id": "VH-095",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.31,
+      "payment_time_minutes": 0.89,
+      "total_processing_minutes": 1.2
+    },
+    {
+      "vehicle_id": "VH-096",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.28,
+      "payment_time_minutes": 0.81,
+      "total_processing_minutes": 1.09
+    },
+    {
+      "vehicle_id": "VH-097",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.78,
+      "payment_time_minutes": 2.24,
+      "total_processing_minutes": 3.02
+    },
+    {
+      "vehicle_id": "VH-098",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.24,
+      "payment_time_minutes": 0.68,
+      "total_processing_minutes": 0.91
+    },
+    {
+      "vehicle_id": "VH-099",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.72,
+      "payment_time_minutes": 2.05,
+      "total_processing_minutes": 2.77
+    },
+    {
+      "vehicle_id": "VH-100",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 4.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.25,
+      "payment_time_minutes": 0.72,
+      "total_processing_minutes": 0.97
+    },
+    {
+      "vehicle_id": "VH-101",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.27,
+      "payment_time_minutes": 0.77,
+      "total_processing_minutes": 1.04
+    },
+    {
+      "vehicle_id": "VH-102",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.26,
+      "payment_time_minutes": 0.74,
+      "total_processing_minutes": 0.99
+    },
+    {
+      "vehicle_id": "VH-103",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.31,
+      "payment_time_minutes": 0.89,
+      "total_processing_minutes": 1.2
+    },
+    {
+      "vehicle_id": "VH-104",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.25,
+      "payment_time_minutes": 0.71,
+      "total_processing_minutes": 0.96
+    },
+    {
+      "vehicle_id": "VH-105",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "Airport"
+      ],
+      "routing_cost": 6.0,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.3,
+      "payment_time_minutes": 0.87,
+      "total_processing_minutes": 1.17
+    },
+    {
+      "vehicle_id": "VH-106",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.24,
+      "payment_time_minutes": 0.68,
+      "total_processing_minutes": 0.92
+    },
+    {
+      "vehicle_id": "VH-107",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.23,
+      "payment_time_minutes": 0.67,
+      "total_processing_minutes": 0.9
+    },
+    {
+      "vehicle_id": "VH-108",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.27,
+      "payment_time_minutes": 0.77,
+      "total_processing_minutes": 1.04
+    },
+    {
+      "vehicle_id": "VH-109",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.28,
+      "payment_time_minutes": 0.79,
+      "total_processing_minutes": 1.07
+    },
+    {
+      "vehicle_id": "VH-110",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.29,
+      "payment_time_minutes": 0.82,
+      "total_processing_minutes": 1.11
+    },
+    {
+      "vehicle_id": "VH-111",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.24,
+      "payment_time_minutes": 0.69,
+      "total_processing_minutes": 0.93
+    },
+    {
+      "vehicle_id": "VH-112",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.3,
+      "payment_time_minutes": 0.85,
+      "total_processing_minutes": 1.15
+    },
+    {
+      "vehicle_id": "VH-113",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.31,
+      "payment_time_minutes": 0.89,
+      "total_processing_minutes": 1.2
+    },
+    {
+      "vehicle_id": "VH-114",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.72,
+      "payment_time_minutes": 2.07,
+      "total_processing_minutes": 2.8
+    },
+    {
+      "vehicle_id": "VH-115",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.25,
+      "payment_time_minutes": 0.71,
+      "total_processing_minutes": 0.96
+    },
+    {
+      "vehicle_id": "VH-116",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.28,
+      "payment_time_minutes": 0.79,
+      "total_processing_minutes": 1.07
+    },
+    {
+      "vehicle_id": "VH-117",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.75,
+      "payment_time_minutes": 2.15,
+      "total_processing_minutes": 2.91
+    },
+    {
+      "vehicle_id": "VH-118",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.28,
+      "payment_time_minutes": 0.8,
+      "total_processing_minutes": 1.08
+    },
+    {
+      "vehicle_id": "VH-119",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.77,
+      "payment_time_minutes": 2.2,
+      "total_processing_minutes": 2.98
+    },
+    {
+      "vehicle_id": "VH-120",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.79,
+      "payment_time_minutes": 2.24,
+      "total_processing_minutes": 3.03
+    },
+    {
+      "vehicle_id": "VH-121",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.75,
+      "payment_time_minutes": 2.15,
+      "total_processing_minutes": 2.9
+    },
+    {
+      "vehicle_id": "VH-122",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.8,
+      "payment_time_minutes": 2.28,
+      "total_processing_minutes": 3.07
+    },
+    {
+      "vehicle_id": "VH-123",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.74,
+      "payment_time_minutes": 2.12,
+      "total_processing_minutes": 2.87
+    },
+    {
+      "vehicle_id": "VH-124",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.77,
+      "payment_time_minutes": 2.2,
+      "total_processing_minutes": 2.97
+    },
+    {
+      "vehicle_id": "VH-125",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.27,
+      "payment_time_minutes": 0.76,
+      "total_processing_minutes": 1.02
+    },
+    {
+      "vehicle_id": "VH-126",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.28,
+      "payment_time_minutes": 0.79,
+      "total_processing_minutes": 1.07
+    },
+    {
+      "vehicle_id": "VH-127",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.23,
+      "payment_time_minutes": 0.67,
+      "total_processing_minutes": 0.9
+    },
+    {
+      "vehicle_id": "VH-128",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 4.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.31,
+      "payment_time_minutes": 0.89,
+      "total_processing_minutes": 1.2
+    },
+    {
+      "vehicle_id": "VH-129",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.24,
+      "payment_time_minutes": 0.67,
+      "total_processing_minutes": 0.91
+    },
+    {
+      "vehicle_id": "VH-130",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.29,
+      "payment_time_minutes": 0.84,
+      "total_processing_minutes": 1.13
+    },
+    {
+      "vehicle_id": "VH-131",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 4.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.28,
+      "payment_time_minutes": 0.81,
+      "total_processing_minutes": 1.09
+    },
+    {
+      "vehicle_id": "VH-132",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.74,
+      "payment_time_minutes": 2.12,
+      "total_processing_minutes": 2.86
+    },
+    {
+      "vehicle_id": "VH-133",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.23,
+      "payment_time_minutes": 0.67,
+      "total_processing_minutes": 0.9
+    },
+    {
+      "vehicle_id": "VH-134",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.25,
+      "payment_time_minutes": 0.71,
+      "total_processing_minutes": 0.96
+    },
+    {
+      "vehicle_id": "VH-135",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.28,
+      "payment_time_minutes": 0.79,
+      "total_processing_minutes": 1.06
+    },
+    {
+      "vehicle_id": "VH-136",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.73,
+      "payment_time_minutes": 2.09,
+      "total_processing_minutes": 2.82
+    },
+    {
+      "vehicle_id": "VH-137",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.26,
+      "payment_time_minutes": 0.75,
+      "total_processing_minutes": 1.02
+    },
+    {
+      "vehicle_id": "VH-138",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "City-Center"
+      ],
+      "routing_cost": 5.5,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.29,
+      "payment_time_minutes": 0.82,
+      "total_processing_minutes": 1.11
+    },
+    {
+      "vehicle_id": "VH-139",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.27,
+      "payment_time_minutes": 0.77,
+      "total_processing_minutes": 1.04
+    },
+    {
+      "vehicle_id": "VH-140",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "Airport"
+      ],
+      "routing_cost": 6.0,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.23,
+      "payment_time_minutes": 0.66,
+      "total_processing_minutes": 0.89
+    },
+    {
+      "vehicle_id": "VH-141",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.25,
+      "payment_time_minutes": 0.72,
+      "total_processing_minutes": 0.97
+    },
+    {
+      "vehicle_id": "VH-142",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.74,
+      "payment_time_minutes": 2.12,
+      "total_processing_minutes": 2.86
+    },
+    {
+      "vehicle_id": "VH-143",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "dijkstra-time",
+      "wait_time_minutes": 0.79,
+      "payment_time_minutes": 2.26,
+      "total_processing_minutes": 3.06
+    },
+    {
+      "vehicle_id": "VH-144",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.23,
+      "payment_time_minutes": 0.67,
+      "total_processing_minutes": 0.9
+    },
+    {
+      "vehicle_id": "VH-145",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.25,
+      "payment_time_minutes": 0.71,
+      "total_processing_minutes": 0.96
+    },
+    {
+      "vehicle_id": "VH-146",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.25,
+      "payment_time_minutes": 0.72,
+      "total_processing_minutes": 0.97
+    },
+    {
+      "vehicle_id": "VH-147",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt"
+      ],
+      "routing_cost": 18.31,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.3,
+      "payment_time_minutes": 0.85,
+      "total_processing_minutes": 1.14
+    },
+    {
+      "vehicle_id": "VH-148",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-West",
+        "Industrial-Belt",
+        "Airport"
+      ],
+      "routing_cost": 6.0,
+      "routing_mode": "dijkstra-cost",
+      "wait_time_minutes": 0.28,
+      "payment_time_minutes": 0.8,
+      "total_processing_minutes": 1.08
+    },
+    {
+      "vehicle_id": "VH-149",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "City-Center"
+      ],
+      "routing_cost": 13.7,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.3,
+      "payment_time_minutes": 0.85,
+      "total_processing_minutes": 1.15
+    },
+    {
+      "vehicle_id": "VH-150",
+      "recommended_path": [
+        "Entry-North",
+        "Hub-East",
+        "Airport"
+      ],
+      "routing_cost": 14.92,
+      "routing_mode": "a*-time",
+      "wait_time_minutes": 0.24,
+      "payment_time_minutes": 0.7,
+      "total_processing_minutes": 0.94
+    }
+  ]
+}

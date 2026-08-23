@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: automated-e-toll-plaza
+Version: 0.1.0
+Summary: Simulation and service prototype for automated electronic toll collection.
+Requires-Python: >=3.10
